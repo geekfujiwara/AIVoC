@@ -31,10 +31,10 @@ https://github.com/user-attachments/assets/370d215c-d770-4a3f-ad3b-d55876ad5448
 ### Power Apps
 以下の2つのアプリが含まれています。
 
-![image](https://github.com/user-attachments/assets/e56c68f7-1d77-4986-8d7b-ce888bd83c7e)
-
 * Power Apps キャンバスアプリ: 現場での利用者向けの入力アプリである AI VoC Entryアプリ
-* Power Apps モデル駆動型アプリ: 管理部門向けにデータを収集した後に分析に活用できるVoC Management App 
+* Power Apps モデル駆動型アプリ: 管理部門向けにデータを収集した後に分析に活用できるVoC Management App
+
+![image](https://github.com/user-attachments/assets/e56c68f7-1d77-4986-8d7b-ce888bd83c7e)
 
 ### AI Builder
 AI Builder によるインタビュー内容の整理機能が含まれています。
@@ -50,7 +50,7 @@ AI Builder によるインタビュー内容の整理機能が含まれていま
 ![image](https://github.com/user-attachments/assets/38bc5e55-50c5-4b95-a7b8-6d99878e9466)
 
 > [!Note]
-> セキュリティロールの運用方法についてご不明な場合は、こちらの私の記事を参考にしてください。
+> セキュリティロールの運用方法についてご不明な場合は、[こちらの私の記事](https://www.geekfujiwara.com/tech/powerplatform/6497/)を参考にしてください。
 > 
 
 
@@ -126,6 +126,23 @@ VoCのステータス管理はビジネスプロセスフロー (BPF) で行っ�
 ## 前提条件
 AI Builder を利用していますので、Power Apps Premiumアプリが必要です。
 
+
+## インポート方法
+[最新のソリューションを入手](https://github.com/geekfujiwara/AIVoC/releases/tag/AIVoC)します。
+
+インポートはPower Apps ポータルからソリューションのインポートより行います。
+
+![image](https://github.com/user-attachments/assets/ec94688e-bb66-4c98-a28a-9e228f5a12e0)
+
+アップデートに備えるためにマネージドソリューションのインポートが推奨です。
+
+![image](https://github.com/user-attachments/assets/592ae300-3e8b-4029-abff-471bc6b9220b)
+
+マネージドソリューションの場合、マネージドのタブにインポートされたソリューションが表示されます。
+
+![image](https://github.com/user-attachments/assets/d111c220-ca6e-43fa-94fd-e281d1aa37a7)
+
+インポート後は、ソリューションを開き、すべてのカスタマイズを公開してから利用します。
 
 ## 参考
 
