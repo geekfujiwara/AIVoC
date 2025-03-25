@@ -1,6 +1,9 @@
 # AI VoC - 音声入力したお客様の声のAIによる自動分類
 音声などで入力した雑多なお客様の声を生成AIを利用して自動的に分類するアプリです。
 
+> [!Note]
+> フィードバックは[ギークフジワラのX](https://x.com/geekfujiwara/status/1904664877660332036)までぜひ！
+
 ![image](https://github.com/user-attachments/assets/b6d60ff5-8e67-4f1e-af85-9b4db6a3bb91)
 
 > [!Note]
