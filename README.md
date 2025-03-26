@@ -42,6 +42,9 @@ https://github.com/user-attachments/assets/370d215c-d770-4a3f-ad3b-d55876ad5448
 ### AI Builder
 AI Builder によるインタビュー内容の整理機能が含まれています。
 
+![image](https://github.com/user-attachments/assets/96435cfc-4649-46be-adef-e8c22c43a59e)
+
+
 ## セキュリティ
 利用者向けのセキュリティロール `VoC Basic User` が提供されています。
 自分のレコードは作成、編集、削除でき、他の部署のレコードは参照できますが、削除、編集はできません。
@@ -130,7 +133,8 @@ VoCのステータス管理はビジネスプロセスフロー (BPF) で行っ�
 AI Builder を利用していますので、Power Apps Premiumアプリが必要です。
 
 
-## インポート方法
+## アプリの利用開始方法
+### ソリューションのインポート
 [最新のソリューションを入手](https://github.com/geekfujiwara/AIVoC/releases/tag/AIVoC)します。
 
 インポートはPower Apps ポータルからソリューションのインポートより行います。
@@ -143,13 +147,25 @@ AI Builder を利用していますので、Power Apps Premiumアプリが必要
 
 マネージドソリューションの場合、マネージドのタブにインポートされたソリューションが表示されます。
 
-![image](https://github.com/user-attachments/assets/d111c220-ca6e-43fa-94fd-e281d1aa37a7)
+![image](https://github.com/user-attachments/assets/ec3942d0-5881-4108-8730-ca6a5ed1fa3b)
 
 インポート後は、ソリューションを開き、すべてのカスタマイズを公開してから利用します。
 
-## 参考
+![image](https://github.com/user-attachments/assets/f7f17225-4af1-479c-8baf-79b42cf65e39)
 
-テストデータとして、以下の顧客の声で試すことができます。
+アプリはこちらにあります。
+
+![image](https://github.com/user-attachments/assets/04164216-cf68-4488-80ca-52a0afd1d13c)
+
+### セキュリティロールの設定
+セキュリティロールは部署に割り当てるなどして利用できます。
+
+部署への割当についての具体的な利用方法は[私の記事](https://www.geekfujiwara.com/tech/powerplatform/6497/)を参考にしてください。
+
+
+## 参考: テストデータ
+
+テストデータとして、以下の顧客の声で試すことができます。AI VoC Entry アプリに入力して試してみてください。
 
 ```
 顧客属性: 30代女性
