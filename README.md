@@ -49,7 +49,7 @@ AI Builder によるインタビュー内容の整理機能が含まれていま
 利用者向けのセキュリティロール `VoC Basic User` が提供されています。
 自分のレコードは作成、編集、削除でき、他の部署のレコードは参照できますが、削除、編集はできません。
 
-![image](https://github.com/user-attachments/assets/597d6dbd-1e0c-492a-ba90-c8ce36081af3)
+![image](https://github.com/user-attachments/assets/be2dbd44-f321-4595-8e49-ea3424af7881)
 
 特定の部署 (チーム) に割当するなどして利用してください。
 
@@ -157,11 +157,31 @@ AI Builder を利用していますので、Power Apps Premiumアプリが必要
 
 ![image](https://github.com/user-attachments/assets/04164216-cf68-4488-80ca-52a0afd1d13c)
 
-### セキュリティロールの設定
-セキュリティロールは部署に割り当てるなどして利用できます。
+### 実行ユーザーへのセキュリティ設定
+#### セキュリティロール
+セキュリティロールを実行を行うユーザーに与えます。部署に割り当てるなどして利用できます。
 
-部署への割当についての具体的な利用方法は[私の記事](https://www.geekfujiwara.com/tech/powerplatform/6497/)を参考にしてください。
+部署(チーム)への割当についての具体的な利用方法は[私の記事](https://www.geekfujiwara.com/tech/powerplatform/6497/)を参考にしてください。
 
+これにより、その部署(チーム)に所属しているユーザーはデータに対するアクセス権が与えられます。
+
+#### リソースへのアクセス権
+続けて、リソースへの共有を与えます。
+
+関係するリソースは3個あります。
+キャンバスアプリ、モデル駆動型アプリ、AIモデルです。
+
+モデル駆動型アプリやキャンバスアプリはこのようにして特定のユーザーやセキュリティグループに対して共有します。
+
+![image](https://github.com/user-attachments/assets/1d828d0d-0077-435b-8cc6-e6919d32a0c7)
+
+AI モデルはこのようにして特定のユーザーやセキュリティグループに対して共有します。
+
+![image](https://github.com/user-attachments/assets/c565d3d3-f69f-42d8-bb6b-0bf8d23953d1)
+
+![image](https://github.com/user-attachments/assets/9b74b7d1-aca3-4d84-9c06-05cea2200810)
+
+アプリのURLを共有して実行できるようにしてあげましょう。
 
 ## 参考: テストデータ
 
